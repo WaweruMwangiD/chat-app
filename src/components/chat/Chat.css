@@ -3,3 +3,47 @@
     flex-direction: column;
     flex: 0.65;
 }
+
+.chat_header{
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+}
+.chat_header{
+    display: flex;
+    
+}
+
+.chat_header_info{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.chat_header_info > h4{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat_header_info > p {
+    color: grey;
+}
+
+.chat_body{
+    flex: 1;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.chat_message{
+    position: relative;
+    background-color: #fff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
