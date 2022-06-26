@@ -47,3 +47,41 @@
     font-size: 16px;
     margin-bottom: 30px;
 }
+
+.chat_timestamp{
+    margin-left: 10px;
+    font-size: xx-small
+}
+
+.chat_receiver{
+    margin-left: auto;
+    background-color: lightgreen;
+}
+
+.chat_footer{
+    display: flex;
+    height: 36px;
+    padding: 10px;
+    border-top: 1px solid grey;
+    justify-content: space-between;
+}
+
+.chat_footer > form{
+    display: flex;
+    flex: 1;
+}
+
+.chat_footer > form >input{
+    flex: 1;
+    border: none;
+    border-radius: 15px;
+}
+
+.chat_footer > form > button {
+    display: none;
+}
+
+.chat_footer > .MuiSvgIcon-root{
+    padding: 0;
+    color: grey;
+}
